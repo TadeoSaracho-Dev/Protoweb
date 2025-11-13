@@ -11,3 +11,7 @@ https://flexboxfroggy.com/#es
 
 https://youtu.be/mG30vD9kV2g?si=TM35zY9AqjZgxzEX
 
+### **Video para aprender y practicar JavaScript**
+
+https://youtu.be/QoC4RxNIs5M?si=PXylGbdbbeXHhbgF
+
