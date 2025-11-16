@@ -24,8 +24,8 @@
         </nav>
         <!--Titulo y servicios-->
         <section>
-            <h1>Comodidad y elegancia en un solo lugar</h1>
-            <p>Tu solución integral para el desarrollo web moderno.</p>
+            <h1>En Protoweb tenemos variedades en planes y servicios</h1>
+            <p>A precios muy accesibles y economicos.</p>
         </section>
         <section class="service-container">
             <h2>Nuestros Servicios</h2>
@@ -37,30 +37,43 @@
             </ul>
         </section>
     </header>
-    <!--Precios-->
+
     <main>
-        <section class="card-container">
-            <div class="card-container-style">
-                <div class="card">
-                    <h3>Precio semanal</h3>
-                    <p>Precio: $3.99</p>
-                    <button class="button">Comprar ahora</button>
+        <section>
+            <h1>
+                Mas informacion de los servicios
+            </h1>
+            <section class="cards-section">
+                <h2>Elige el servicio que necesitás</h2>
+                    <div class="cards-container">
+                        <div class="card" data-service="web">
+                            <h3>Desarrollo Web</h3>
+                            <p>Landing pages, tiendas online, sistemas.</p>
+                        </div>
+                        <div class="card" data-service="seo">
+                            <h3>SEO Profesional</h3>
+                            <p>Mejor posicionamiento en Google.</p>
+                        </div>
+                        <div class="card" data-service="design">
+                            <h3>Diseño UI/UX</h3>
+                            <p>Diseños modernos, limpios y atractivos.</p>
+                        </div>
                 </div>
-                <div class="card">
-                    <h3>Precio mensual</h3>
-                    <p>Precio: $9.99</p>
-                    <button class="button">Comprar ahora</button>
-                </div>
-                <div class="card">
-                    <h3>Precio anual</h3>
-                    <p>Precio: $99.99</p>
-                    <button class="button">Comprar ahora</button>
-                </div>
-            </div>
-    </section>
-</main>
+        </section>
+        </section>
+    </main>
     <footer class="footer">
         <p>&copy; 2025 ProtoWeb. Todos los derechos reservados.</p>
     </footer>
+    <!-- Modal de Información -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span id="closeModal">&times;</span>
+        <h2 id="modal-title"></h2>
+        <p id="modal-text"></p>
+    </div>
+</div>
+
+<script src="assets/servicios.js"></script>
 </body>
 </html>
