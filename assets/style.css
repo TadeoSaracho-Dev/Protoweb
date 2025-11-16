@@ -22,7 +22,7 @@ body{
     background-color: #f5ebe0;
     color: #4a3d37;
     line-height: 1.6;
-    padding: 20px;
+    padding: 0px;
 }
 h1, h2, h3{
     color: #4a3d37;
@@ -137,12 +137,12 @@ main{
 
 .navbar{
     position: sticky;
-    top: 10px;
+    top: 0px;
     z-index: 1000;
     background: #302a28;
     color: #ede0d4;
-    padding: 10px 20px;
-    border-radius: 4px;
+    padding: 10px 5px;
+    border-radius: 1px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 4px;
 }
 .navbar ul svg{
@@ -170,9 +170,11 @@ main{
 
 .footer{
     text-align: center;
-    padding: 20px;
+    padding: 50px;
+    width: 100%; 
     background: #333;
     color: #fff;
     margin-top: 20px;
+    
 }
 
