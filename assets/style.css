@@ -168,15 +168,36 @@ main{
     padding-left: 24px;
 }
 
+
+
+
 .footer{
+    
     text-align: center;
-    padding: 50px;
+    padding: 20px;
     width: 100%; 
     background: #333;
     color: #fff;
-    margin-top: 20px;
-    
+    margin-top: 10px;   
 }
+#Redes{
+transform: translateY(-10px);
+color: white;
+text-align: left;
+font-size: 24px;
+}
+
+.redes-sociales p{
+    font-size: 24px;
+    text-align: left;
+    color: white;   
+}
+
+
+
+
+
+
 
 /* Estilo de servicios */
 .cards-section {
